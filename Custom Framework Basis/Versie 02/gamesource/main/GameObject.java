@@ -59,19 +59,19 @@ public class GameObject
 	
 	public double getBBoxTop()
 	{
-		return y + _boundingBox.getMinX();
+		return y + _boundingBox.getMinY();
 	}
 	public double getBBoxLeft()
 	{
-		return x + _boundingBox.getMinY();
+		return x + _boundingBox.getMinX();
 	}
 	public double getBBoxBottom()
 	{
-		return y + _boundingBox.getMaxX() * scaleX;
+		return y + _boundingBox.getMaxY() * scaleY;
 	}
 	public double getBBoxRight()
 	{
-		return x + _boundingBox.getMaxY() * scaleY;
+		return x + _boundingBox.getMaxX() * scaleX;
 	}
 	
 	

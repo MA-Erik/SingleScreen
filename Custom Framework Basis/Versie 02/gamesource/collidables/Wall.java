@@ -7,7 +7,7 @@ import javafx.scene.image.*;
 public class Wall extends GameObject
 {
 	
-	public Wall(float xPosition, float yPosition)
+	public Wall(double xPosition, double yPosition)
 	{
 		super(xPosition, yPosition);
 		

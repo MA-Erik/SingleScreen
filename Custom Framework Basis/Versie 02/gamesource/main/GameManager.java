@@ -43,7 +43,7 @@ public class GameManager
 	
 	// PROPERTY GAME OBJECT LIST:
 	private ArrayList<GameObject> _gameObjList = new ArrayList<GameObject>();
-	public ArrayList<GameObject> getGameObjects()
+	public ArrayList<GameObject> getGameObjectsList()
 	{
 		return _gameObjList;
 	}
@@ -91,7 +91,7 @@ public class GameManager
 	
 	public void DrawGUI()
 	{
-		
+		// DRAW INTERFACE HERE:
 	}
 	
 	
@@ -116,6 +116,7 @@ public class GameManager
 		
 		Wall wallTest = new Wall(50, 50);
 		_gameObjList.add(wallTest);
+		
 		
 	}
 	

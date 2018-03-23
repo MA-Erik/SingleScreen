@@ -88,7 +88,7 @@ public class MainApplication extends Application
 		// RESET THE CURRENT PIXEL BUFFER, THEN DRAW THE CURRENT STATE OF THE GAME:
 		_myContext.clearRect(0, 0, SCREEN_WIDTH, SCREEN_WIDTH);
 		_gameManager.Draw();
-		//_gameManager.DrawGUI();
+		_gameManager.DrawGUI();
 		
 		
 		// CLEAR RELEASE INPUT FOR NEXT ITERATION:
